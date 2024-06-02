@@ -1,0 +1,49 @@
+/* learn.css */
+
+.learn-container {
+  background-color: #282a36; /* Dark blue-gray */
+  color: #e0e0e0; /* Light gray */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 80px auto 0;
+}
+
+.learn-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #8be9fd; /* Light blue */
+}
+
+.section {
+  margin-top: 40px;
+}
+
+.section h3 {
+  font-size: 1.5rem;
+  color: #ff79c6; /* Pink */
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #bd93f9; /* Light purple */
+  color: #282a36; /* Dark blue-gray */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff79c6; /* Pink */
+  color: #282a36; /* Dark blue-gray */
+  text-decoration: none;
+}

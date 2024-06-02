@@ -1,0 +1,87 @@
+.container {
+  background-color: #282a36; /* Dark blue-gray */
+  color: #e0e0e0; /* Light gray */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 80px auto 0;
+}
+
+.dashboard h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #8be9fd; /* Light blue */
+}
+
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.summary-item {
+  flex: 1 1 calc(50% - 20px);
+  background-color: #44475a; /* Dark grayish blue */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.summary-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.summary-item p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.summary-item a {
+  color: #8be9fd; /* Light blue */
+  text-decoration: none;
+}
+
+.summary-item a:hover {
+  text-decoration: underline;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-color: #6272a4; /* Medium purple */
+  color: #e0e0e0; /* Light gray */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #bd93f9; /* Light purple */
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.checkboxes label {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.progress-slider {
+  width: 100%;
+  margin: 10px 0;
+}

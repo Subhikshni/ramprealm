@@ -1,0 +1,47 @@
+/* intermediate.css */
+
+.intermediate-container {
+  background-color: #282a36; /* Dark blue-gray */
+  color: #e0e0e0; /* Light gray */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 80px auto 0;
+}
+
+.intermediate-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #8be9fd; /* Light blue */
+}
+
+.section {
+  margin-top: 40px;
+}
+
+.section h3 {
+  font-size: 1.5rem;
+  color: #ff79c6; /* Pink */
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+}
+
+.section ul li strong {
+  color: #50fa7b; /* Green */
+}
+
+/* Style the list items to improve readability */

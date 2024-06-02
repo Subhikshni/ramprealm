@@ -1,0 +1,63 @@
+/* bestbrand.css */
+
+.best-brands {
+  margin: 40px auto;
+  max-width: 900px;
+  background-color: #282a36; /* Dark blue-gray */
+  color: #e0e0e0; /* Light gray */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.best-brands h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #8be9fd; /* Light blue */
+  text-align: center;
+}
+
+.brand-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.brand {
+  background-color: #44475a; /* Dark grayish blue */
+  color: #e0e0e0; /* Light gray */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.brand:hover {
+  transform: translateY(-5px);
+}
+
+.brand img {
+  width: 100%;
+  height: 150px; /* Fixed height for uniformity */
+  object-fit: contain; /* Ensures image scales correctly */
+  display: block;
+  margin: 0 auto;
+}
+
+.brand-details {
+  text-align: center;
+}
+
+.brand-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #8be9fd; /* Light blue */
+}
+
+.brand-details p {
+  margin: 5px 0;
+}
+
+.brand-details p strong {
+  color: #8be9fd; /* Light blue */
+}

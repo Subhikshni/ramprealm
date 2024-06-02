@@ -1,0 +1,101 @@
+/* beginner.css */
+
+.beginner-container {
+  background-color: #282a36; /* Dark blue-gray */
+  color: #e0e0e0; /* Light gray */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 80px auto 0;
+  font-family: "Arial", sans-serif;
+}
+
+.beginner-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #8be9fd; /* Light blue */
+  text-align: center;
+}
+
+.step {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #44475a; /* Slightly lighter background */
+}
+
+.step h3 {
+  font-size: 1.8rem;
+  color: #ff79c6; /* Pink */
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.skateboard-size,
+.Natural,
+.Nollie,
+.Switch,
+.Fakie,
+.push {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.skateboard-size {
+  background-image: url("skateboard-size.webp");
+  width: 100%;
+  height: 400px; /* Adjust height as needed */
+  margin-top: 20px;
+}
+
+.Natural,
+.Nollie,
+.Switch,
+.Fakie {
+  height: 200px; /* Adjust height as needed */
+  margin-top: 20px;
+}
+
+.Natural {
+  background-image: url("natural.jpg");
+}
+
+.Nollie {
+  background-image: url("nollie.jpg");
+}
+
+.Switch {
+  background-image: url("switch.jpg");
+}
+
+.Fakie {
+  background-image: url("fakie.jpg");
+}
+
+.push {
+  background-image: url("push.jpg");
+  height: 400px; /* Adjust height as needed */
+  margin-top: 20px;
+}

@@ -1,0 +1,108 @@
+/* profile.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a; /* Very dark gray */
+  color: #e0e0e0; /* Light gray */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #282a36; /* Dark blue-gray */
+  color: #e0e0e0; /* Light gray */
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: #8be9fd; /* Light blue */
+  margin-right: 20px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #c4a0e5; /* Light purple */
+}
+
+.profile-container {
+  background-color: #282a36; /* Dark blue-gray */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 80px auto 0;
+  color: #e0e0e0; /* Light gray */
+}
+
+.profile-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #8be9fd; /* Light blue */
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.profile-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #44475a; /* Dark grayish blue */
+  color: #e0e0e0; /* Light gray */
+}
+
+.profile-button {
+  background-color: #6272a4; /* Medium purple */
+  color: #e0e0e0; /* Light gray */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.profile-button:hover {
+  background-color: #bd93f9; /* Light purple */
+}
+
+.signin-link {
+  display: block;
+  margin-top: 20px;
+  color: #8be9fd; /* Light blue */
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.signin-link:hover {
+  text-decoration: underline;
+}
